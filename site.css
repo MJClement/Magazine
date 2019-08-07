@@ -1,0 +1,117 @@
+body {
+ color: darkorange;
+ background-color: whitesmoke;
+  margin: 0px;
+
+}
+
+p {
+  font-family: "georgia", serif;
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "helvetica", sanserif;
+  font-size: 45px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: "helvetica", sanserif;
+  font-size: 16px;
+}
+
+h4 {
+  font-family: "helvetica", sanserif;
+  font-size: 13px;
+}
+
+.sm-page-container {
+	max-width: 1000px;
+  max-height: 100%;
+  margin: 0px auto;
+}
+
+.sm-credit-container  {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  left: 3%;
+
+}
+
+.sm-credit-col{
+    width: 40%;
+  float: left;
+
+}
+
+.sm-title-container {
+  margin-left: 12%;
+  margin-top: 2%;
+  width: 40%;
+	position: relative;
+
+}
+
+.sm-note-container {
+  left: 3%;
+  margin-top: 0.5%;
+	position: relative; 
+}
+
+.sm-para-container  {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 3%;
+}
+
+.sm-para-col{
+  width: 29.5%;
+  float: left;
+  margin-left: 3%;
+  margin-top: -12.5%;
+}
+
+.sm-para-col--low{
+  margin-top: 1%;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+img{
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+
+
+
+.sm-footer {
+  margin-top: 50px;
+  width: 100%;
+	position: relative;
+	overflow: hidden;
+  margin-left: 39%;
+  margin-bottom: 40px;
+}
+
+.sm-button {
+	float: left;
+}
+
+.sm-button a {
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: darkorange;
+  font-family: "helvetica bold", sanserif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
