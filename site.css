@@ -5,9 +5,8 @@ body {
 
 }
 
-head	{
-  color:white;
-  opacity:0;
+.hidden {
+  color:whitesmoke;
 }
 
 p {
@@ -108,7 +107,7 @@ img{
   }
   
 .sm-footer {
-  margin-top: 50%%;
+  margin-top: 3%;
   width: 100%;
 	position: relative;
 	overflow: hidden;
@@ -139,3 +138,4 @@ hr{
   margin-top:3%;
 
 }
+
