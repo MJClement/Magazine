@@ -107,7 +107,7 @@ img{
   }
   
 .sm-footer {
-	background-color: pink;
+	bottom:3%;
 	margin-top:3%;
   width: 100%;
 	position: static;
