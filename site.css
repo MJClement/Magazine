@@ -108,7 +108,7 @@ img{
   
 .sm-footer {
   width: 100%;
-	position: relative;
+	position: static;
 	overflow: hidden;
   margin-left: 39%;
   margin-bottom: 3%;
