@@ -116,7 +116,8 @@ img{
 	overflow: hidden;
   margin: 0 auto;
   top: 100px;
-  padding-bottom: 5%
+  padding-bottom: 5%;
+  left:  50px;
 }
 
 .sm-button {
@@ -215,7 +216,7 @@ p {
   margin: 0 auto;
   top: 100px;
   padding-bottom: 5%;
-  padding-left: 25px;
+  left: -40px;
 }
 }
 
@@ -228,7 +229,7 @@ p {
   margin: 0 auto;
   top: 100px;
   padding-bottom: 5%;
-  left: -5px;
+  left: -50px;
   margin-right: -50px;
 }
 }
