@@ -98,18 +98,25 @@ img{
   margin-bottom: 3%;
   }
 
+  .image3 {
+    width: 15px;
+    display: inline-block;
+    margin-top: -17px;
+    }
+
 .image2:hover {
  transform: scale(1.2);
  box-shadow: 5px 5px 50px peachpuff;
   }
 
 .sm-footer {
-	margin-top:3%;
-  width: 100%;
+  width: auto;
 	position: relative;
+  display: inline-block;
 	overflow: hidden;
-  margin-left: 30%;
-  margin-bottom: 6%;
+  margin: 0 auto;
+  top: 100px;
+  padding-bottom: 5%
 }
 
 .sm-button {
@@ -134,4 +141,99 @@ hr{
     margin-left: 3%;
   margin-top:3%;
 
+}
+
+.sm-colour--on {
+  background-color: darkorange;
+  color: white;
+}
+
+.sm-colour--on a {
+  color: white;
+}
+
+.sm-colour--on .sm-button a {
+  border-color: white;
+  color: white;
+}
+
+.sm-colour--on footer {
+	background-color: dark orange;
+}
+
+.sm-position--on .sm-title-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.sm-position--on .sm-title-container h1 {
+  font-size: 10vw;
+	margin-bottom: 10vh;
+  width:  100%;
+	margin-top: -20px;
+  color: darkolivegreen;
+  margin-left: -40px;
+}
+
+@media screen and (max-width: 600px) {
+.sm-position--on .sm-title-container h1 {
+  font-size: 12vw;
+	margin-bottom: 10vh;
+  width:  100%;
+	margin-top: 25px;
+  color: darkolivegreen;
+  margin-left: -47px;
+}
+
+@media screen and (max-width: 600px) {
+p {
+  font-family: "georgia", serif;
+  line-height: 1.4;
+  font-size: 12px;
+}
+}
+
+@media screen and (max-width: 600px) {
+.sm-para-col{
+  width: 29.5%;
+  float: left;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+}
+
+@media screen and (max-width: 600px) {
+.sm-footer {
+  width: auto;
+	position: relative;
+  display: inline-block;
+	overflow: hidden;
+  margin: 0 auto;
+  top: 100px;
+  padding-bottom: 5%;
+  padding-left: 25px;
+}
+}
+
+@media screen and (max-width: 400px) {
+.sm-footer {
+  width: auto;
+	position: relative;
+  display: inline-block;
+	overflow: hidden;
+  margin: 0 auto;
+  top: 100px;
+  padding-bottom: 5%;
+  left: -5px;
+  margin-right: -50px;
+}
+}
+
+.dot{
+  width: 5px;
+  height: 5px;
 }
