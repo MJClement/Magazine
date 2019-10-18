@@ -1,2 +1,3 @@
 # Magazine
-WIP | Stuff Mov.es | Magazine Project
+Stuff Mov.es | Magazine Project
+Mitchell Clement
